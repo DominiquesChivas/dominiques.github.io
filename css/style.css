@@ -568,10 +568,6 @@ html {
   display: grid;
 }
 
-.aspect-\[4\/3\] {
-  aspect-ratio: 4/3;
-}
-
 .aspect-\[16\/9\] {
   aspect-ratio: 16/9;
 }
@@ -590,14 +586,6 @@ html {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.list-disc {
-  list-style-type: disc;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .scroll-smooth {
@@ -633,6 +621,10 @@ html {
   padding-right: 0.5rem;
 }
 
+.font-sprat {
+  font-family: Sprat;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -641,10 +633,6 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .font-medium {
@@ -657,18 +645,6 @@ html {
 
 .tracking-widest {
   letter-spacing: 0.1em;
-}
-
-.tracking-\[1em\] {
-  letter-spacing: 1em;
-}
-
-.tracking-\[\.5em\] {
-  letter-spacing: .5em;
-}
-
-.tracking-\[\.3em\] {
-  letter-spacing: .3em;
 }
 
 .text-white {
@@ -713,14 +689,6 @@ html {
     display: flex;
   }
 
-  .md\:aspect-video {
-    aspect-ratio: 16 / 9;
-  }
-
-  .md\:aspect-\[16\/9\] {
-    aspect-ratio: 16/9;
-  }
-
   .md\:h-screen {
     height: 100vh;
   }
@@ -729,28 +697,12 @@ html {
     min-height: 120px;
   }
 
-  .md\:min-h-\[216px\] {
-    min-height: 216px;
-  }
-
   .md\:w-\[25\%\] {
     width: 25%;
   }
 
   .md\:min-w-40 {
     min-width: 10rem;
-  }
-
-  .md\:max-w-sm {
-    max-width: 24rem;
-  }
-
-  .md\:max-w-md {
-    max-width: 28rem;
-  }
-
-  .md\:max-w-lg {
-    max-width: 32rem;
   }
 
   .md\:border-none {
@@ -763,10 +715,6 @@ html {
 }
 
 @media (min-width: 1024px) {
-  .lg\:min-h-\[120px\] {
-    min-height: 120px;
-  }
-
   .lg\:max-w-lg {
     max-width: 32rem;
   }
